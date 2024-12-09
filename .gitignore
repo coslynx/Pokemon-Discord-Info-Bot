@@ -1,0 +1,28 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore local image cache
+data/images/
+
+# Ignore Pillow temporary files
+*.tmp
+Thumbs.db
+
+# Ignore Git metadata
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore database file (if used)
+data/pokemon.db
+
+# Ignore assets
+assets/
+
+# Ignore test outputs
+tests/*.out
