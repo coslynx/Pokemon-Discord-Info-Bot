@@ -1,0 +1,8 @@
+{
+  "assets": {
+    "placeholders": {
+      "pokemon_loading.gif": "[GIF data here]",
+      "pokemon_not_found.png": "[PNG data here]"
+    }
+  }
+}
