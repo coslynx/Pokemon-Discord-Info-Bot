@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS pokemon (
+  pokemon_id INTEGER PRIMARY KEY,
+  name TEXT UNIQUE,
+  hp INTEGER,
+  attack INTEGER,
+  defense INTEGER,
+  special_attack INTEGER,
+  special_defense INTEGER,
+  speed INTEGER
+);
+
+CREATE INDEX IF NOT EXISTS idx_pokemon_name ON pokemon (name);
